@@ -24,7 +24,6 @@ png("./plots/plot2.png", height = 480, width = 480, units = "px", bg = "transpar
 plot(datos$date_full,
      datos$Global_active_power,
      type = "l",
-     main = "Global Active Power",
      xlab = "",
      ylab = "Global Active Power(kilowatts)")
 
