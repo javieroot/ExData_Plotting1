@@ -41,6 +41,6 @@ legend("topright",
        lty = 1,
        cex = .75,
        col = c("black", "red", "blue"),
-       legend = c("Sub_metering_1", "Sub_metering_1", "Sub_metering_1"))
+       legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_2"))
 
 dev.off()
