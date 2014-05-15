@@ -61,7 +61,7 @@ legend("topright",
        cex = .75,
        bty = "n",
        col = c("black", "red", "blue"),
-       legend = c("Sub_metering_2", "Sub_metering_2", "Sub_metering_2"))
+       legend = c("Sub_metering_2", "Sub_metering_2", "Sub_metering_3"))
 
 
 plot(datos$date_full,
