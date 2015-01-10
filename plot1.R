@@ -1,5 +1,10 @@
+# Changing the time locale for R to English
+Sys.setlocale("LC_TIME", "en_US.UTF-8")
+
 # changing work directory
 setwd("/home/javier/Respaldo/Data Science Specialization/repositorios/ExData_Plotting1")
+
+# Unzip data
 unzip("exdata-data-household_power_consumption.zip")
 
 # Reading data
@@ -27,3 +32,4 @@ hist(datos$Global_active_power,
      xlab = "Global Active Power(kilowatts)",
      col  = "red")
 dev.off()
+

@@ -1,7 +1,11 @@
+# Changing the time locale for R to English
+Sys.setlocale("LC_TIME", "en_US.UTF-8")
+
 # changing work directory
 setwd("/home/javier/Respaldo/Data Science Specialization/repositorios/ExData_Plotting1")
-unzip("exdata-data-household_power_consumption.zip")
 
+# Unzip data
+unzip("exdata-data-household_power_consumption.zip")
 
 # Reading data
 datos <- read.table("household_power_consumption.txt",
